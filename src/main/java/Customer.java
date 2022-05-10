@@ -25,7 +25,7 @@ class Customer {
         while (enum_rentals.hasMoreElements()) {
             Rental each = (Rental) enum_rentals.nextElement();
             //show figures for this rental
-            result += "\t" + each.getMovie().getName() + "\t" + "\t" + each.getDaysRented() + "\t" + String.valueOf(each.getCharge()) + "\n";
+            result += "\t" + each.getMovie().getName() + "\t" + "\t" + each.getDaysRented() + "\t" + each.getCharge() + "\n";
         }
         //add footer lines
         result += "Amount owed is " + getTotalCharge() + "\n";
