@@ -1,3 +1,5 @@
+package MovieRental;
+
 abstract class Price {
     abstract int getPriceCode();
 

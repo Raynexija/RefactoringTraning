@@ -1,3 +1,5 @@
+package MovieRental;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Before;
@@ -9,7 +11,7 @@ public class ProgramTest {
     @Before
     public void init() {
         Movie m1 = new Movie("movie1", new NewReleasePrice());
-        Movie m2 = new Movie("movie2", new ChildrensPrice());
+        Movie m2 = new Movie("movie2", new ChildrenPrice());
         Rental r1 = new Rental(m1, 10);
         Rental r2 = new Rental(m2, 5);
         c1.addRental(r1);
@@ -18,7 +20,7 @@ public class ProgramTest {
 
     @Test
     public void testASCII() {
-        String result = "Rental Record for joe\n" +
+        String result = "MovieRental.Rental Record for joe\n" +
                 "\tTitle\t\tDays\tAmount\n" +
                 "\tmovie1\t\t10\t30.0\n" +
                 "\tmovie2\t\t5\t4.5\n" +

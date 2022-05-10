@@ -1,3 +1,4 @@
+package MovieRental;
 
 /**
  * Note that Java console applications need to be run through the java runtime
@@ -12,9 +13,9 @@ public class Program {
 
     public static void main(String args[]) {
         String result;
-        System.out.println("Welcome to the Movie Store");
+        System.out.println("Welcome to the MovieRental.Movie Store");
         Movie m1 = new Movie("movie1", new NewReleasePrice());
-        Movie m2 = new Movie("movie2", new ChildrensPrice());
+        Movie m2 = new Movie("movie2", new ChildrenPrice());
         Rental r1 = new Rental(m1, 10);
         Rental r2 = new Rental(m2, 5);
         Customer c1 = new Customer("joe");

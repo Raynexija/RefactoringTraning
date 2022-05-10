@@ -1,10 +1,12 @@
+package MovieRental;
+
 class Rental {
     private Movie movie;
     private int daysRented;
 
-    public Rental(Movie newmovie, int newdaysRented) {
-        movie = newmovie;
-        daysRented = newdaysRented;
+    public Rental(Movie movie, int daysRented) {
+        this.movie = movie;
+        this.daysRented = daysRented;
     }
 
     public int getDaysRented() {
@@ -15,7 +17,7 @@ class Rental {
         return movie;
     }
 
-    public  double getCharge() {
+    public double getCharge() {
         return movie.getCharge(daysRented);
     }
 

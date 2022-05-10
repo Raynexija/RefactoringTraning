@@ -1,4 +1,6 @@
-class ChildrensPrice extends Price {
+package MovieRental;
+
+class ChildrenPrice extends Price {
     int getPriceCode() {
         return Movie.CHILDRENS;
     }
