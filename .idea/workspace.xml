@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbbe7460-8c95-4fff-b2d6-76a7a22f303d" name="Changes" comment="Rename Variable">
+    <list default="true" id="dbbe7460-8c95-4fff-b2d6-76a7a22f303d" name="Changes" comment="Move Method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rental.java" afterDir="false" />
@@ -33,12 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DH\Refactoring\Refactoring\src\main\java" />
@@ -77,6 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652165234091</updated>
+      <workItem from="1652170610643" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1652166095612</created>
@@ -106,8 +107,18 @@
       <option name="project" value="LOCAL" />
       <updated>1652169358532</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Move Method">
+      <created>1652169937486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652169937486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -124,6 +135,10 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Added Unit Test" />
     <MESSAGE value="Rename Variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename Variable" />
+    <MESSAGE value="Move Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move Method" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Refactoring$ProgramTest_test.ic" NAME="ProgramTest.test Coverage Results" MODIFIED="1652170383994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
