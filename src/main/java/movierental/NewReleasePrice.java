@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 class NewReleasePrice extends Price {
     int getPriceCode() {

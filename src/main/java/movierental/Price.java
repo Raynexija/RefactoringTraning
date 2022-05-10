@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 abstract class Price {
     abstract int getPriceCode();

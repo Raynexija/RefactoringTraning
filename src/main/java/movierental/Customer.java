@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 import java.util.Enumeration;
 import java.util.Vector;

@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 public class Movie {
     public static final int CHILDRENS = 2;

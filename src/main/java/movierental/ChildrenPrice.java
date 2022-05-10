@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 class ChildrenPrice extends Price {
     int getPriceCode() {

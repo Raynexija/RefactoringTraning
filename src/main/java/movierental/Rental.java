@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 class Rental {
     private Movie movie;

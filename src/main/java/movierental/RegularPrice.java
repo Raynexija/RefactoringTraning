@@ -1,4 +1,4 @@
-package MovieRental;
+package movierental;
 
 class RegularPrice extends Price {
     int getPriceCode() {
