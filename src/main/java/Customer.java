@@ -1,28 +1,21 @@
-
-import java.lang.*;
-import java.util.*;
+import java.util.Enumeration;
+import java.util.Vector;
 
 class Customer {
     private String name;
     private Vector rentals = new Vector();
 
-    public Customer(String newname) {
-        name = newname;
+    public Customer(String name) {
+        this.name = name;
     }
-
-    ;
 
     public void addRental(Rental arg) {
         rentals.addElement(arg);
     }
 
-    ;
-
     public String getName() {
         return name;
     }
-
-    ;
 
     public String statement() {
         Enumeration enum_rentals = rentals.elements();
@@ -32,11 +25,11 @@ class Customer {
         while (enum_rentals.hasMoreElements()) {
             Rental each = (Rental) enum_rentals.nextElement();
             //show figures for this rental
-            result += "\t" + each.getMovie().getTitle() + "\t" + "\t" + each.getDaysRented() + "\t" + String.valueOf(each.getCharge()) + "\n";
+            result += "\t" + each.getMovie().getName() + "\t" + "\t" + each.getDaysRented() + "\t" + String.valueOf(each.getCharge()) + "\n";
         }
         //add footer lines
-        result += "Amount owed is " + String.valueOf(getTotalCharge()) + "\n";
-        result += "You earned " + String.valueOf(getTotalFrequentRenterPoints()) + " frequent renter points";
+        result += "Amount owed is " + getTotalCharge() + "\n";
+        result += "You earned " + getTotalFrequentRenterPoints() + " frequent renter points";
         return result;
     }
 
@@ -66,14 +59,14 @@ class Customer {
         while (eRentals.hasMoreElements()) {
             Rental each = (Rental) eRentals.nextElement();
             //show figures for each rental
-            result += each.getMovie().getTitle() + ": " +
-                    String.valueOf(each.getCharge()) + "<BR>\n";
+            result += each.getMovie().getName() + ": " +
+                    each.getCharge() + "<BR>\n";
         }
         //add footer lines
-        result += "<P>You owe <EM>" + String.valueOf(getTotalCharge()) +
+        result += "<P>You owe <EM>" + getTotalCharge() +
                 "</EM><P>\n";
         result += "On this rental you earned <EM>" +
-                String.valueOf(getTotalFrequentRenterPoints()) +
+                getTotalFrequentRenterPoints() +
                 "</EM> frequent renter points<P>";
         return result;
     }
