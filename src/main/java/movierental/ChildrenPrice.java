@@ -2,7 +2,7 @@ package movierental;
 
 class ChildrenPrice extends Price {
     int getPriceCode() {
-        return Movie.CHILDRENS;
+        return Movie.CHILDREN;
     }
 
     double getCharge(int daysRented) {

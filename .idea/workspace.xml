@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbbe7460-8c95-4fff-b2d6-76a7a22f303d" name="Changes" comment="Moved into Package" />
+    <list default="true" id="dbbe7460-8c95-4fff-b2d6-76a7a22f303d" name="Changes" comment="Moved into Package">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movierental/ChildrenPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movierental/ChildrenPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movierental/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movierental/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/movierental/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/movierental/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/movierental/ProgramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/movierental/ProgramTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,7 @@
   </component>
   <component name="RunManager" selected="JUnit.ProgramTest">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MovieRental.Program" />
+      <option name="MAIN_CLASS_NAME" value="movierental.Program" />
       <module name="Refactoring" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,7 +63,7 @@
     <configuration name="ProgramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refactoring" />
       <option name="PACKAGE_NAME" value="MovieRental" />
-      <option name="MAIN_CLASS_NAME" value="MovieRental.ProgramTest" />
+      <option name="MAIN_CLASS_NAME" value="movierental.ProgramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,7 +72,7 @@
     <configuration name="ProgramTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Refactoring" />
       <option name="PACKAGE_NAME" value="MovieRental" />
-      <option name="MAIN_CLASS_NAME" value="MovieRental.ProgramTest" />
+      <option name="MAIN_CLASS_NAME" value="movierental.ProgramTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -76,8 +82,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProgramTest" />
-        <item itemvalue="JUnit.ProgramTest.test" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.ProgramTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652165234091</updated>
-      <workItem from="1652170610643" duration="5114000" />
+      <workItem from="1652170610643" duration="6505000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1652166095612</created>
@@ -182,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652175584687</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Moved into Package">
+      <created>1652175878426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652175878426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +227,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Refactoring$ProgramTest_test.ic" NAME="ProgramTest.test Coverage Results" MODIFIED="1652170383994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Refactoring$ProgramTest.ic" NAME="ProgramTest Coverage Results" MODIFIED="1652175236255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Refactoring$ProgramTest.ic" NAME="ProgramTest Coverage Results" MODIFIED="1652176854256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
